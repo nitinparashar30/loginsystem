@@ -54,20 +54,20 @@ if ($invalid)
 <div class="container col-md-4 my-5">
 
 <div class="alert alert-danger border border-warning" role="alert">
- <strong>iSecure</strong> Login to Your Account.
+ <strong>i-Secure</strong> Login to Your Account.
 </div><button type="button" class="btn btn-dark col-md-12">LOGIN HERE</button>
   <div class="alert alert-warning  border border-primary">
 
 
   <form action="login.php" method="post">
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" name="email" aria-describedby="emailHelp" required>
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label >Email address</label>
+    <input type="text" class="form-control" name="email" required>
+    <small class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
+    <label>Password</label>
     <input type="password" class="form-control" name="passw" id="exampleInputPassword1" required>
   </div>
   <a href="forgotpass.php" class="float-right">Forgotten Password ?</a>
